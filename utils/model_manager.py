@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.applications.resnet50 import preprocess_input  # type: ignore
+from tensorflow.keras.applications.efficientnet import preprocess_input
 import logging
 
 logger = logging.getLogger(__name__)

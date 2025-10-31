@@ -11,9 +11,9 @@ import os
 # ============================
 # CONFIGURACIÓN DEL MODELO
 # ============================
-IMG_SIZE = (224, 224)  # Tamaño esperado por el modelo
-MODEL_PATH = 'models/resnet50_latest.keras'
-CLASSES_PATH = 'models/classes_latest.json'
+IMG_SIZE = (256, 256)  # Tamaño esperado por el modelo
+MODEL_PATH = 'models/saccharum_vision_latest.keras'
+CLASSES_PATH = 'models/saccharum_classes_latest.json'
 
 # Clases por defecto si no hay archivo
 DEFAULT_CLASSES = ['Healthy', 'Mosaic', 'RedRot', 'Rust', 'Yellow']

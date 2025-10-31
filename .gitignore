@@ -11,3 +11,5 @@ instance/
 .vscode/
 *.log
 .env
+models/
+uploads/
