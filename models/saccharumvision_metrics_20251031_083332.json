@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-10-31T08:33:32.052905",
+  "model_info": {
+    "name": "SaccharumVision",
+    "version": "3.0 (V3)",
+    "architecture": "EfficientNetB0 (V3, Freeze@50)",
+    "classes": [
+      "Healthy",
+      "Mosaic",
+      "RedRot",
+      "Rust",
+      "Yellow"
+    ],
+    "image_size": [
+      256,
+      256
+    ],
+    "batch_size": 32
+  },
+  "performance": {
+    "overall_accuracy": 0.9683377308707124,
+    "precision_macro": 0.9695198276446962,
+    "recall_macro": 0.9674872752502159,
+    "f1_macro": 0.967982929561067,
+    "precision_per_class": [
+      0.9285714285714286,
+      0.9701492537313433,
+      0.9629629629629629,
+      1.0,
+      0.9859154929577465
+    ],
+    "recall_per_class": [
+      0.9873417721518988,
+      0.9420289855072463,
+      1.0,
+      0.987012987012987,
+      0.9210526315789473
+    ],
+    "f1_per_class": [
+      0.9570552147239264,
+      0.9558823529411765,
+      0.9811320754716981,
+      0.9934640522875817,
+      0.9523809523809523
+    ]
+  },
+  "training": {
+    "epochs_max": 30,
+    "optimizer": "AdamW",
+    "learning_rate_init": 0.0005,
+    "early_stopping_patience": 10,
+    "reducelr_patience": 3,
+    "data_augmentation": "enhanced"
+  }
+}

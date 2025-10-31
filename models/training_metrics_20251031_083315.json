@@ -1,0 +1,17 @@
+{
+  "best_val_accuracy": 0.9841269850730896,
+  "best_val_loss": 0.05724990740418434,
+  "test_accuracy": 0.9683377146720886,
+  "test_loss": 0.10260587185621262,
+  "epochs_trained": 30,
+  "timestamp": "20251031_083315",
+  "class_names": [
+    "Healthy",
+    "Mosaic",
+    "RedRot",
+    "Rust",
+    "Yellow"
+  ],
+  "total_params": 4870312,
+  "architecture": "EfficientNetB0_V3_FineTune_Capa50"
+}
